@@ -5,7 +5,7 @@ Code samples which I have created while learning web development using online co
 Simple html pages which demonstrate: 
   • What is Boilerplate of HTML
   • How to structure text using various tag such as <em>,<strong> etc..
-  •	HTML Lists – <ul>,<li>,<ol>
+  •	HTML Lists"<ul>,<li>,<ol>"
   •	Image element, Links and Anchor tags-<img>,<a>
   •	<table>,<tr>,<td>, use tables for Layout
   •	How to type Emojis.
