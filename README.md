@@ -12,7 +12,7 @@ Simple html pages which demonstrate:
 - HTML forms, input, submit button. send form input in mail body on click of submit button.
    (`<form action="mailto:email_id">`)
 
-#### 2.CSS-Personal Site
+#### 2. CSS-Personal Site
 Modify above html pages to use CSS.
 - How to use internal, inline and external CSS
 - CSS syntax, selectors, classes Ids
@@ -21,3 +21,9 @@ Modify above html pages to use CSS.
 - Static relative and absolute positioning, centring elements.
 - Font family, size, weight, height, colour, text-decoration
 - Border, padding, margin, display-Block/inline
+
+#### 3. Bootstrap4-TinDog
+TinDog website to demonstrate:
+- How to use Bootstrap4 in project by BootstrapCDN (CSS,JS)
+- Use of various components : Navigation Bar,buttons,Card,Carousal
+- Grid Layout,Bootstrap containers, use images or icon from Font Awesome
