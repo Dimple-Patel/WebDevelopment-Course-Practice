@@ -35,3 +35,9 @@ Dicee game using HTML,CSS,Bootstrap4,Javascript.simple game which generate 2 ran
 - selecting,manipulating and changing HTML element's style and other attribute using javascript. 
 - Bind click event to button using javascript
 
+#### 4. Javascript-DrumKit
+DrumKit application using HTML,CSS,Javascript.It display image of different drums image 
+and play different sound based on mouse click and keyboard key press.
+- use DOM traversal,Audio class,Binding of button and keyboard event.
+
+
