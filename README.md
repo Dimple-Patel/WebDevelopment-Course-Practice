@@ -40,9 +40,18 @@ DrumKit application using HTML,CSS,Javascript.It display image of different drum
 and play different sound based on mouse click and keyboard key press.
 - use DOM traversal,Audio class,Binding of button and keyboard event.
 
-#### 5. Node-Weather API
+#### 6. Node-Weather API
 sample test code to take city name as input, call weather API and display tamprature of city from data received from API.
 - use Node.js,Express,body-parser,https npm packages.
 - Responding to request with HTML file.
 - making GET request with the Node HTTPS module.
 - using body-parser to parse POST requests to server.parse JSON object into javascript object.
+
+#### 7. Newsletter-Signup
+Implement single page Newaletter signup functionality where user provide basic detail,email Id and press signup for posting data to Mailchimp's server via their API.
+- use HTML,CSS,Bootstrap4,Node.js and Express,body-parser,request,https npm packages.
+- respond to GET and PUT request using express.
+- parse POST request using body parser. convert data from JSON to javascript object and viceversa.
+- call mailChimp API to post data to Mailchimp's server using HTTPS module of Node. pass jsonData as input to API using request module.
+- display success or failure pages based on response of mailChimp API.
+- use Bootstrap templates and customise it for signup page. use jumbotron for success and failure page.
