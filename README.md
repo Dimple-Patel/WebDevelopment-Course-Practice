@@ -28,16 +28,21 @@ TinDog website to demonstrate:
 - Use of various components : Navigation Bar,buttons,Card,Carousal
 - Grid Layout,Bootstrap containers, use images or icon from Font Awesome
 
-#### 3. Javascript-Dicee
+#### 4. Javascript-Dicee
 Dicee game using HTML,CSS,Bootstrap4,Javascript.simple game which generate 2 random number between 1 to 6
 ,display image of dicee based on it and decide winner on click of play buttom.
 - use basic concept of javascript-DataType,Variable,function,operator,control statement.
 - selecting,manipulating and changing HTML element's style and other attribute using javascript. 
 - Bind click event to button using javascript
 
-#### 4. Javascript-DrumKit
+#### 5. Javascript-DrumKit
 DrumKit application using HTML,CSS,Javascript.It display image of different drums image 
 and play different sound based on mouse click and keyboard key press.
 - use DOM traversal,Audio class,Binding of button and keyboard event.
 
-
+#### 5. Node-Weather API
+sample test code to take city name as input, call weather API and display tamprature of city from data received from API.
+- use Node.js,Express,body-parser,https npm packages.
+- Responding to request with HTML file.
+- making GET request with the Node HTTPS module.
+- using body-parser to parse POST requests to server.parse JSON object into javascript object.
