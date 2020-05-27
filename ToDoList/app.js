@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //connect to local todolistDB mongoDB database or create if not exist.
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true,useUnifiedTopology: true});
 
 //define schema for Item collection
 const itemsSchema = {
