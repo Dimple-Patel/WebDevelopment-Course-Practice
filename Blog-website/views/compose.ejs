@@ -1,0 +1,15 @@
+<%# This file is used to display page which is used to compose new blog post.It contain labels,
+textbox to enter postTitle,textarea to enter post content and submit buuton to post data to /compose route %>
+<%- include("partials/header"); -%>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+  <div class="form-group">
+  <label>Title</label>
+  <input class="form-control" type="text" name="postTitle">
+  <label >Post</label>
+  <textarea class="form-control" name="postBody" rows="8" cols="80"></textarea>
+  </div>
+  <button class="btn btn-primary" type="submit" name="button">Publish</button>
+
+</form>
+<%- include("partials/footer"); -%>

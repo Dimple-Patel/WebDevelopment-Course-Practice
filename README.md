@@ -62,3 +62,8 @@ Implement ToDoList where user can enter new item for Today list and generate as 
 - create two collections Items and List in todolistDB using mongoose.
 - handle add and delete operation of item from default and user defined list.
 - learn data binding, curd using mongoose and ejs syntaxes. 
+
+#### 9.Blog-website
+application which allow to create new post. display brief detail of all content on home page.
+display post title and full content in new page when click on Read more.
+-use Node,ejs,mongoose,Bootstrap4,express,body-parser
