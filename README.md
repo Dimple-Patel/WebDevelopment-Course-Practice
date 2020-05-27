@@ -55,3 +55,10 @@ Implement single page Newaletter signup functionality where user provide basic d
 - call mailChimp API to post data to Mailchimp's server using HTTPS module of Node. pass jsonData as input to API using request module.
 - display success or failure pages based on response of mailChimp API.
 - use Bootstrap templates and customise it for signup page. use jumbotron for success and failure page.
+
+#### 8. ToDoList
+Implement ToDoList where user can enter new item for Today list and generate as many as custom List they want.
+- use HTML,CSS,Node.js,Express,ejs,body-parser,lodash,mongoose.
+- create two collections Items and List in todolistDB using mongoose.
+- handle add and delete operation of item from default and user defined list.
+- learn data binding, curd using mongoose and ejs syntaxes. 

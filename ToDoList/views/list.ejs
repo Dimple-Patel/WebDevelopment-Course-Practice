@@ -1,0 +1,33 @@
+<%# include header.ejs %>
+<%- include("header") -%>
+
+  <div class="box" id="heading">
+    <%# display listTitle come from input request %>
+    <h1> <%= listTitle %> </h1>
+  </div>
+
+  <div class="box">
+
+<%# iterate on each item of array display it on List with checkbox %>
+  <%  newListItems.forEach(function(item){ %>
+
+    <%# on change of checkbox form submit to /delete route and pass item _id and listTitle%>
+    <form action="/delete" method="post">
+      <div class="item">
+        <%# bind _id of item with value of checkbox which is used to delete item %>
+        <input type="checkbox" name="checkbox" value="<%=item._id%>" onChange="this.form.submit()">
+        <p><%=item.name%></p>
+      </div>
+      <input type="hidden" name="listName" value="<%= listTitle %>"></input>
+    </form>
+  <%  }) %>
+
+      <%# on click of + button form submit and POST request handler of / route will be executed%>   
+      <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+        <button type="submit" name="list" value="<%= listTitle %>">+</button>
+      </form>
+  </div>
+
+<%# include footer.ejs %>
+<%- include("footer") -%>
